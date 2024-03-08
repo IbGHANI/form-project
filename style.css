@@ -8,3 +8,42 @@
 html{
     scroll-behavior: smooth;
 }
+
+.landing{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.landing > .container{
+    width: 90%;
+    height: 90vh;
+    background-color: aqua;
+    display: flex;
+}
+
+.landing > .container > .image-bg{
+    width: 40%;
+    background-image: url(./IMAGES/photo-1567095761054-7a02e69e5c43.avif);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing > .container > .image-bg > .content{
+    width: 100%;
+    background: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.landing > .container > .image-bg > .content h1{
+    color: white;
+    font-size: 2rem;
+    font-family:'fraunse', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
