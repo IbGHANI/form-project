@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  .form-box {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-box h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    gap: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 20%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Optional: Adjust label styles for better readability */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+    </style>
+</head>
+<body>
+    
+    <form action="" method="POST">
+        <label for="first_name">FIRST NAME</label>
+        <input type="text" name="fname" required >
+        <label for="last_name">LAST NAME</label>
+        <input type="text" name="lname" required>
+        <label for="Email">EMAIL</label>
+        <input type="email" name="email" required>
+        <label for="Phone_number">PHONE_NUMBER</label>
+        <input type="number" name="number" maxlength="11" required>
+        <label for="Password">PASSWORD</label>
+        <input type="password" name="password" maxlength="8" required>
+        <label for="CPassword">CONFIRM PASSWORD</label>
+        <input type="Cpassword" name="password" maxlength="8" required>
+
+        
+    </form>
+
+
+</body>
+</html>
