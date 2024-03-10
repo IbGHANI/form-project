@@ -82,8 +82,7 @@ html{
     width: 100%;
     height: 65%;
     display: block;
-    background-color: red;
-
+    margin-top: 5%;
 }
 
 .form-section > .container > .form-box > h1{
@@ -91,6 +90,20 @@ html{
     font-size: 1.1rem;
     font-weight: bolder;
 }
+
+.form-section > .container > .form-box > form > .input-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-section > .container > .form-box > form > .input-box > .input-field{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
