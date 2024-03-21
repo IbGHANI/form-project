@@ -5,63 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-  .form-box {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
+        /* Default input field styles */
+.input-field input {
     border: 1px solid #ccc;
-    border-radius: 5px;
+    padding-right: 30px; /* Space for icon */
 }
 
-.form-box h1 {
-    text-align: center;
-    margin-bottom: 20px;
+/* Icon for valid input */
+.input-field input:valid::after {
+    content: '\2714'; /* Unicode character for checkmark */
+    color: #2ecc71; /* Green checkmark color */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-form {
-    display: grid;
-    gap: 5px;
+/* Icon for invalid input */
+.input-field input:invalid::after {
+    content: '\2716'; /* Unicode character for times */
+    color: #e74c3c; /* Red times color */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-label {
-    font-weight: bold;
-}
 
-input {
-    width: 20%;
-    padding: 8px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-/* Optional: Adjust label styles for better readability */
-label {
-    display: block;
-    margin-bottom: 5px;
-}
 
     </style>
 </head>
 <body>
+    <div class="form-section">
+        <div class="container">
+            <div class="content">
+            </div>
+            <div class="form-box">
+                    <h1>Let's do this!</h1>
+                    <form action="" method="POST">
+
+                        <div class="input-box">
+                            <div class="input-field">
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" name="fname" required >
+                                <span></span>
+                            </div>
+                            <div class="input-field">
+                                <label for="first_name">LAST NAME</label>
+                                <input type="text" name="Lname" required >
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="input-box">
+                            <div class="input-field">
+                                <label for="email">EMAIL</label>
+                                <input type="email" name="email" required >
+                                <span></span>
+                            </div>
+                            <div class="input-field">
+                                <label for="Phone_number">PHONE NUMBER</label>
+                                <input type="phone number" name="number" maxlength="11" required >
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="input-box">
+                            <div class="input-field">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" name="password" maxlength="8" required >
+                                <span></span>
+                            </div>
+                            <div class="input-field">
+                                <label for="Cpassword">CONFIRM PASSWORD</label>
+                                <input type="password" name="Cpassword" maxlength="8" required >
+                                <span></span>
+                            </div>
+                        </div>
+                                                        
+                    </form>
+
+                    <div class="create_accont">
+                        <input type="submit" value="Create Account" name="signup" id="register">
+                        <p>Alread have an Account? <a href="">Login</a></p>
+                    </div>
+            </div>
+
+
+
+
+
+            
+        </div>
+
+    </div>
     
-    <form action="" method="POST">
-        <label for="first_name">FIRST NAME</label>
-        <input type="text" name="fname" required >
-        <label for="last_name">LAST NAME</label>
-        <input type="text" name="lname" required>
-        <label for="Email">EMAIL</label>
-        <input type="email" name="email" required>
-        <label for="Phone_number">PHONE_NUMBER</label>
-        <input type="number" name="number" maxlength="11" required>
-        <label for="Password">PASSWORD</label>
-        <input type="password" name="password" maxlength="8" required>
-        <label for="CPassword">CONFIRM PASSWORD</label>
-        <input type="Cpassword" name="password" maxlength="8" required>
-
-        
-    </form>
-
-
 </body>
 </html>
