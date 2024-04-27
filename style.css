@@ -48,3 +48,199 @@ input:invalid + .icon.error {
 input:valid + .icon.success {
     display: inline-block;
 }
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.landing{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.landing > .container{
+    width: 90%;
+    height: 90vh;
+    background-color: aqua;
+    display: flex;
+}
+
+.landing > .container > .image-bg{
+    width: 40%;
+    background-image: url(./IMAGES/photo-1567095761054-7a02e69e5c43.avif);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing > .container > .image-bg > .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.landing > .container > .image-bg > .content > img{
+    margin-right: 3%;
+}
+
+.landing > .container > .image-bg > .content h1{
+    color: white;
+    font-size: 2rem;
+    font-family:'fraunse', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.landing > .container > .form-section{
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 1%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.landing > .container > .form-section > .container{
+    width: 100%;
+    height: 90vh;
+    padding: 1% 1%;
+    display: block;
+}
+
+.landing > .container > .form-section > .container > .content{
+    width: 100%;
+    height: 20vh;
+}
+
+.landing > .container > .form-section > .container > .content > p{
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.form-section > .container > .form-box{
+    width: 100%;
+    height: 60%;
+    display: block;
+    margin-top: 5%;
+    background-color: white;
+}
+
+.form-section > .container > .form-box > h1{
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    margin-bottom: 2%;
+}
+
+.form-section > .container > .form-box > form > .input-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.form-section > .container > .form-box > form > .input-box > .input-field{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+
+}
+
+.form-section > .container > .form-box > form > .input-box > .input-field > label{
+
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.form-section > .container > .form-box > form > .input-box > .input-field > input{
+    width: 90%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 2%;
+    border: 1px solid #596D48;
+
+}
+
+.form-section > .container > .form-box > .create_accont{
+    margin-top: 3%;
+    width: 35%;
+}
+
+.form-section > .container > .form-box > .create_accont > input{
+    padding: 10px;
+    border-radius: 10px;
+    
+    background: #596D48;
+    color: white;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 3%;
+}
+
+.form-section > .container > .form-box > .create_accont > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.form-section > .container > .form-box > .create_accont > p > a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bolder;
+}
+
+input:valid{
+    border: none;
+    outline: 1px solid green;
+}
+
+input + span {
+    position: relative;
+}
+  
+input + span::before {
+    position: absolute;
+    right: -2px;
+    bottom: -20px;
+}
+  
+input:invalid {
+    border: 2px solid red;
+}
+  
+input:invalid + span::before {
+    content: "✖";
+    color: red;
+}
+  
+input:valid + span::before {
+    content: "✓";
+    color: green;
+}
+
+
+
+
+ */
