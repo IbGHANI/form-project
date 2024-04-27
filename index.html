@@ -1,97 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Validation</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Validation</title>
+<style>
+    
+</style>
 </head>
 <body>
 
-    <section class="landing">
+<div class="form">
+    <form>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <span class="icon error">❌</span>
+        <span class="icon success">✓</span>
+        <br>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <span class="icon error">❌</span>
+        <span class="icon success">✓</span>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
 
-        <div class="container">
-            <div class="image-bg">
-                <div class="content">
-                    <img src="./IMAGES/odin-lined.png" alt="" width="30px" height="30px">
-                    <h1>ODIN</h1>
-                </div>
-            </div>
-    
-            <div class="form-section">
-                <div class="container">
-                    <div class="content">
-                        <p>This is not a real online services! You know you need something
-                        like this is in your life to help you realize your deepest dreams.
-                        Sign up now to get started.
-                        <br>
-                        <br>
-                        You know you want to
-                        </p>
-                    </div>
-                    <div class="form-box">
-                            <h1>Let's do this!</h1>
-                            <form action="" method="POST">
-
-                                <div class="input-box">
-                                    <div class="input-field">
-                                        <label for="first_name">FIRST NAME</label>
-                                        <input type="text" name="fname" required >
-                                        <span></span>
-                                    </div>
-                                    <div class="input-field">
-                                        <label for="first_name">LAST NAME</label>
-                                        <input type="text" name="Lname" required >
-                                        <span></span>
-                                    </div>
-                                </div>
-
-                                <div class="input-box">
-                                    <div class="input-field">
-                                        <label for="email">EMAIL</label>
-                                        <input type="email" name="email" required >
-                                        <span></span>
-                                    </div>
-                                    <div class="input-field">
-                                        <label for="Phone_number">PHONE NUMBER</label>
-                                        <input type="phone number" name="number" maxlength="11" required >
-                                        <span></span>
-                                    </div>
-                                </div>
-
-                                <div class="input-box">
-                                    <div class="input-field">
-                                        <label for="password">PASSWORD</label>
-                                        <input type="password" name="password" maxlength="8" required >
-                                        <span></span>
-                                    </div>
-                                    <div class="input-field">
-                                        <label for="Cpassword">CONFIRM PASSWORD</label>
-                                        <input type="password" name="Cpassword" maxlength="8" required >
-                                        <span></span>
-                                    </div>
-                                </div>
-                                                                
-                            </form>
-
-                            <div class="create_accont">
-                                <input type="submit" value="Create Account" name="signup" id="register">
-                                <p>Alread have an Account? <a href="">Login</a></p>
-                            </div>
-                    </div>
-
-
-
-
-
-                    
-                </div>
-    
-            </div>
-        </div>
-
-        
-    </section>
-    
 </body>
 </html>
